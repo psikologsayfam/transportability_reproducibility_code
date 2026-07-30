@@ -1,0 +1,1 @@
+{"data_roots":["../raw_inputs"],"output_root":"../results","allowed_extensions":[".csv",".csv.gz",".parquet"],"ignored_directory_names":["results","experiments","predictions","models","reports","tables","figures","manuscript","cache"]}

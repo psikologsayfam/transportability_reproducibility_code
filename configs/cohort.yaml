@@ -1,0 +1,1 @@
+{"adult_min_age":18,"retain_multiple_icu_stays":true,"merge_unit_transfers":false,"outcome":"in_hospital_mortality","windows_hours":[1,6,12,24],"required_raw_domains":["patients","admissions","icu_stays","vitals","laboratory_measurements"]}

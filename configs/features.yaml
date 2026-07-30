@@ -1,0 +1,1 @@
+{"summaries":["first","last","minimum","maximum","mean","standard_deviation","count","time_since_last","missing_indicator"],"mechanism_groups":["observation_process","physiology_laboratory","clinical_actions","demographic_administrative","valid_full"],"forbidden_patterns":["mortality","death","discharge","outtime","length_of_stay","los"]}

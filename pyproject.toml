@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cmpb-transportability-reproducibility"
+version = "0.2.0"
+description = "Partial reproduction utilities for the CMPB ICU transportability manuscript"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "pyyaml", "pyarrow", "matplotlib", "lightgbm", "xgboost", "catboost", "torch"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

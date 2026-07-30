@@ -1,0 +1,1 @@
+{"models":["logistic_regression","lightgbm","xgboost","catboost","ft_transformer","tabm"],"seeds":[17,42,2026],"selection":{"primary":"auprc","secondary":["brier","auroc"]},"logistic_regression":{"C":[0.001,0.01,0.1,1.0,10.0],"class_weight":[null,"balanced"]}}

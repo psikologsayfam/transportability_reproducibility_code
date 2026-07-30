@@ -1,0 +1,1 @@
+{"split_seed":20260713,"split_proportions":{"train":0.70,"validation":0.15,"test":0.15},"windows_hours":[1,6,12,24],"threshold_source":"source_validation","target_recalibration_primary":false,"ece":{"bins":15,"strategy":"equal_frequency"}}
